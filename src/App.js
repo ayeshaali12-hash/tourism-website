@@ -10,6 +10,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Service from './components/Service';
+// import Blog from './components/Blog';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <Router>
       <div className='App'>
       <Navbar />
-      
+    
 
       <Routes>
       <Route path="/" element={<Home />}>
@@ -26,12 +27,14 @@ function App() {
             </Route>
           <Route path="/service" element={<Service/>}>
           </Route>
+          {/* <Route path="/blog" element={<Blog/>}>
+          </Route> */}
           <Route path="/contact" element={<Contact />}>
           </Route>
           
         </Routes>
     </div>
-    </Router>
+  </Router>
   );
 }
 

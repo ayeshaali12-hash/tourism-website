@@ -1,0 +1,27 @@
+.carousel-item{
+    height: 40rem;
+    
+}
+
+.carousel-h2{
+    font-size: 3rem;
+    /* background-color: white; */
+    font-weight: 700;
+}
+.stylee{
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.5rem 0 2rem 0;
+}
+
+@media screen and(max-width: 350) {
+    .carousel-h2{
+        font-size: 1.5rem;
+        padding: 10px 20px;
+    }    
+
+    .stylee{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+}

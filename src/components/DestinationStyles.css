@@ -23,9 +23,11 @@
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
+    color: black;
 }
 .des-text h2{
     padding-bottom: 1rem;
+    color: black;
 }
 .image{
     position: relative;
@@ -63,6 +65,7 @@
         }
         .des-text{
             width: 100%;
+            color: black;
         }
         .image{
             width: 100%;
