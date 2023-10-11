@@ -22,8 +22,8 @@ export default class Navbar extends Component {
             <ul className={this.state.clicked?"nav-menu active":"nav-menu"}>
               {MenuItems.map((item,index)=>{
                 return(
-                  <li key={index} className={item.className} >
-                    <Link to={item.url}><i className={item.icon}></i>{item.title}</Link>
+                  <li key={index} className={item.className} style={{color:"green"}}>
+                    <Link to={item.url} className="navbar-link"><i className={item.icon}></i>{item.title}</Link>
                 </li>
                 )
               })}

@@ -1,3 +1,4 @@
+// Elements of the Nav-bar
 export const MenuItems= [
     {
         title: "Home",
@@ -6,16 +7,22 @@ export const MenuItems= [
         icon: "fa-solid fa-house-user"
     },
     {
-        title: "About",
-        url: "/about",
-        className: "nav-links",
-        icon: "fa-solid fa-circle-info"
-    },
-    {
         title: "Services",
         url: "/service",
         className: "nav-links",
         icon: "fa-solid fa-briefcase"
+    },
+    {
+        title: "Packages",
+        url: "/packages",
+        className: "nav-links",
+        icon: "fa-solid fa-cube"
+    },
+    {
+        title: "About",
+        url: "/about",
+        className: "nav-links",
+        icon: "fa-solid fa-circle-info"
     },
     {
         title: "Contact",

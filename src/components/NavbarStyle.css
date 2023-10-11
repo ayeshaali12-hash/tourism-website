@@ -6,16 +6,18 @@
     padding: 0 30px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     width: 95%;
-    height: 80px;
+    height: 70px;
     border-radius: 13px;
     position: fixed;
     top: 20px;
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
+    /* color: #339310; */
 }
 .navbar-logo{
-    color: #222;
+    color: #339310;
+    font-weight: bold;
     font-size:  2rem;
     cursor: pointer;
 }
@@ -29,7 +31,7 @@
 
 .nav-links{
     text-decoration: none;
-    color: #222;
+    color: #339310;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
@@ -38,14 +40,24 @@
 
 .nav-links i{
     padding-right: 10px;
+    color: #339310;
 }
-.nav-links:hover{
-    background-color: #01959a;
+/* .nav-links i:hover{
+    padding-right: 10px;
     color: #fff;
+} */
+.nav-links:hover{
+    /* background-color: #339310;
+    color: #fff; */
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 }
-
+.navbar-link{
+    color: #339310;
+}
+/* .navbar-link:hover{
+    color: #fff;
+} */
 .nav-links-mobile{
     display: none;
 }
@@ -60,7 +72,7 @@ button{
     transition: 0.2s ease-in-out;
 }
 button:hover{
-    background-color: #151516;
+    background-color: #339310;
     color: #ffffff;
 }
 .menu-icons{
@@ -103,7 +115,7 @@ button:hover{
         padding: 2rem 0;
     }
     .nav-links:hover{
-        background-color: #01959a;
+        background-color: #339310;
         transition: none;
     }
     button{
@@ -116,7 +128,7 @@ button:hover{
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background-color: #01959a;
+        background-color: #339310;
         text-decoration: none;
         color: white;
         font-size: 1.2rem;
@@ -131,6 +143,6 @@ button:hover{
     }
     .menu-icons i{
      font-size: 1.2rem;
-     color: #222;   
+     color: #339310;   
     }
 }
