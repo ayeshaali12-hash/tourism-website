@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import Footer from './Footer';
 import Trips from './Trips';
+import OurServices from './NewItems/OurService';
 
 
 export default function Service() {
@@ -13,6 +14,7 @@ export default function Service() {
       title = "Services we provide"
       btnClass = "hide"
       />
+      <OurServices />
       <Trips />
       
       <Footer />

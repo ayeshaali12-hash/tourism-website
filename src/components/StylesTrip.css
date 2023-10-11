@@ -1,5 +1,5 @@
 .trip{
-    margin: 4rem 6rem;
+    margin: 2rem 6rem;
     color: #2a2a2a;
 }
 .trip h1{
@@ -7,7 +7,7 @@
 }
 
 .trip-card{
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }

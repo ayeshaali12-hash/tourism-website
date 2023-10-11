@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-size: "Poppins", sans-serif;
 } */
+.review-h1{
+    margin: 4rem 0 0 0;
+}
 .re-app{
     display: flex;
     align-items: center;

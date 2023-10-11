@@ -11,13 +11,14 @@ export default function AboutUs(props) {
         </div>
         <div className='ab-text'>
             <h3>Welcome to <b style={{color:'green'}}>Travelers</b></h3>
-            <p>jkaflskjalskfhlehfsfn, ckjfhasl asfjhasklfbc sjfkdacb jfbak ajkfb avbkjbf cd bkaf
-                sfjsjkdfsk  vjfbksdjf nm bvsdnd vjfbj v js vjsh f s g fbjh ifwefbi lffbe wffu
+            <p>At <b style={{color:"#339310"}}>Travelers</b>, we are passionate about exploring the world's wonders and creating unforgettable travel experiences. Our mission is to inspire and assist travelers in discovering the beauty, diversity, and rich cultural heritage our planet has to offer.
             </p>
-            <p>jkaflskjalskfhlehfsfn, ckjfhasl asfjhasklfbc sjfkdacb jfbak ajkfb avbkjbf cd bkaf
-                sfjsjkdfsk  vjfbksdjf nm bvsdnd vjfbj v js vjsh f s g fbjh ifwefbi lffbe wffu
+            <p>Founded in 2020, our team of avid globetrotters and travel enthusiasts came together 
+              with a shared vision: to simplify and enhance the way people plan their journeys. 
+              We understand that travel is not just about reaching a destination; 
+              it's about the moments, the stories, and the connections made along the way.
             </p>
-            <button>Read More</button>
+            <button className='Ab-us-btn'>Read More</button>
         </div>
         
         </div>

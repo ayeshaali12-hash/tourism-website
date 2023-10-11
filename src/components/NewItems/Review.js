@@ -18,7 +18,7 @@ export default function Review() {
     }
   return (
     <>
-    <h1>Clients Review</h1>
+    <h1 className='review-h1'>Clients Review</h1>
     <div className='re-app'>
         
       <div class="wrapper">
