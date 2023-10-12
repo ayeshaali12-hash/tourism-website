@@ -1,0 +1,99 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Poppins", sans-serif;
+} */
+.guide-h1{
+    margin: 4rem 0 0 0;
+}
+.guide-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding: 0 45px ;
+    /* border-color: black; */
+    /* background: linear-gradient(to left top, #031A9A, #8B53FF); */
+}
+.guide-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    padding: 0 45px ;
+    width: 100%;
+    position: relative;
+}
+.guide-wrapper .guide-carousel{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+.guide-carousel :where(.card, img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guide-carousel .guide-card{
+    width: 290px;
+    height: 460px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    border-color: #6a6d78;
+}
+.guide-card .guide-img{
+    margin: 1.5rem;
+    background-color: #339310;
+    width: 250px;
+    height: 250px;
+    /* cursor: pointer; */
+    /* border-radius: 50%; */
+}
+.guide-card .guide-img img{
+    width: 240px;
+    height: 240px;
+    cursor: pointer;
+    /* object-fit: cover; */
+    /* border-radius: 50%; */
+    /* border: 4px solid #fff; */
+}
+.guide-card h2{
+    font-weight: 500;
+    font-size: 1.56rem;
+    margin: 0px 0 2px;
+}
+.guide-card span{
+    color: #6a6d78;
+    font-size: 1.31rem;
+}
+.guide-icons{
+    color: #2b7b0e;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.guide-icons:hover{
+    color: #2b7b0e;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .guide-wrapper .guide-carousel{
+        grid-auto-columns: calc((100% / 2) - 9px);
+
+    }
+}
+@media screen and (max-width: 300px) {
+    .guide-wrapper .guide-carousel{
+        grid-auto-columns: 100%;
+        
+    }
+}

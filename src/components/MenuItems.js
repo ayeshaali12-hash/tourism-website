@@ -14,7 +14,7 @@ export const MenuItems= [
     },
     {
         title: "Packages",
-        url: "/packages",
+        url: "/package",
         className: "nav-links",
         icon: "fa-solid fa-cube"
     },

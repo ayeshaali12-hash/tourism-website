@@ -3,6 +3,8 @@ import "./StylesTrip.css";
 import React from 'react'
 import TripData from "./TripData";
 
+
+
 export default function Trips() {
   return (
     <div className="trip">

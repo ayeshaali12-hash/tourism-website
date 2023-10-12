@@ -1,5 +1,5 @@
 .main{
-    margin: 2rem 3rem;
+    margin: 2rem 6rem;
     /* height: 480px; */
 }
 .main h1{
@@ -16,7 +16,7 @@
 
 .ab-text{
     width: 50%;
-    text-align: start;
+    text-align: justify;
     font-size: 1.1rem;
 }
 .ab-text h3{
