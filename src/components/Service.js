@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Footer from './Footer';
 import Trips from './Trips';
 import OurServices from './NewItems/OurService';
+import BackToTop from './NewItems/BackToTop';
 
 
 export default function Service() {
@@ -18,6 +19,7 @@ export default function Service() {
       <Trips />
       
       <Footer />
+      <BackToTop />
     </div>
   )
 }

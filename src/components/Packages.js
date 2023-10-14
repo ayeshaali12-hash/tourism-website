@@ -5,6 +5,7 @@ import Hero from './Hero';
 import Footer from './Footer';
 import AllPackages from './NewItems/AllPackages';
 import FamousPackages from './NewItems/FamousPackages';
+import BackToTop from './NewItems/BackToTop';
 
  function Packages() {
   return (
@@ -55,6 +56,7 @@ import FamousPackages from './NewItems/FamousPackages';
       </div>
       <AllPackages />
       <Footer />
+      <BackToTop />
     </div>
   )
 }

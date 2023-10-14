@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from './Hero';
 import img1 from "../components/Images/img1.jpg"
 import Footer from './Footer';
-import AllPackages from './NewItems/AllPackages';
+import BackToTop from './NewItems/BackToTop';
 
 
 export default function Contact() {
@@ -17,6 +17,7 @@ export default function Contact() {
       <h1>Contact</h1>
       
       <Footer />
+      <BackToTop />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Footer from './Footer';
 import AboutUs from './NewItems/AboutUs';
 import Guide from './NewItems/Guide';
+import BackToTop from './NewItems/BackToTop';
 
 export default function About() {
   return (
@@ -18,6 +19,7 @@ export default function About() {
       />
     <Guide />
       <Footer />
+      <BackToTop />
     </div>
   )
 }
