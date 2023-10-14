@@ -1,0 +1,36 @@
+.package-btn-div{
+    width: 25rem;
+    margin: 2rem 8rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+.package-btn{
+    background-color: #339310;
+    padding: 2px;
+    font-size: 1.2rem;
+    background-color: #339310;
+    color: #fff;
+    /* border-radius: 10px; */
+    max-width: 120px;
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid #23620c;
+    margin: 6px 0px 8px;
+}
+.package-btn:hover{
+    background-color:  #1f560b;
+    color: #fff;
+}
+.all-packages-div{
+    margin: 2rem 8rem;
+}
+
+@media screen and (max-width:850px) {
+    
+    
+}

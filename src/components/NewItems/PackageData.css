@@ -45,13 +45,21 @@
     text-align: center;
     font-weight: 700;
 }
-.p-card p{
+.p-para{
     padding: 0rem 0.1rem ;
+    text-align: justify;
 }
+
 .stars{
     color: #2b7b0e;
     text-align: center;
     font-size: 1.3rem;
+}
+.cities{
+    color: #256b0c;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .table-box{

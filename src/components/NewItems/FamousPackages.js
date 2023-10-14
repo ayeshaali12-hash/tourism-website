@@ -1,10 +1,9 @@
-// single Component of a Package
-import React from 'react';
+import React from 'react'
 import "./PackageData.css";
-
-export default function PackageData(props) {
+export default function FamousPackages(props) {
   return (
     <div>
+      <div>
       <div className="p-card">
         <div className="p-image">
         <img alt="recent place" src={props.image}></img>
@@ -22,15 +21,20 @@ export default function PackageData(props) {
             </div>
           </div>
         </div>
-        
-        <p className='cities'>
-          {props.lastStar}
+        <h4>{props.heading}</h4>
+        <p className='stars'>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class="fa-sharp fa-solid fa-star"></i>
+        <i class = {props.lastStar}></i>
+        {/* <i class="fa-sharp fa-solid fa-star"></i> */}
         </p>
-        <h4 className='cities-heading'>{props.heading}</h4>
         <p className='p-para'>{props.text}</p>
         <button className='pack-btn'>Read More</button>
         <button className='pack-btn'>Book Now</button>
       
+    </div>
     </div>
     </div>
   )
