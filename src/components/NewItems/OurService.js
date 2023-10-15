@@ -74,7 +74,7 @@ export default function OurServices() {
                         <div key={i} className='ser-card'>
                             
                             <h3><i class={card.class} style={{float:"left", color:'#339310'}}></i>{card.title}</h3>
-                            <p >{card.text}</p>
+                            <p className='OurServices-para'>{card.text}</p>
                             <button className='ser-btn'>Explore</button>
                         </div>
                     ))

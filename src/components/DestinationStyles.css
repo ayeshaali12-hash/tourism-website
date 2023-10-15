@@ -29,6 +29,9 @@
     padding-bottom: 1rem;
     color: black;
 }
+.pop-dest-para{
+    text-align: justify;
+}
 .image{
     position: relative;
     width: 50%;
