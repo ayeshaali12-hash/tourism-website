@@ -16,7 +16,7 @@
     /* color: #339310; */
 }
 .navbar-logo{
-    color: #339310;
+    color: #008080;
     font-weight: bold;
     font-size:  2rem;
     cursor: pointer;
@@ -31,7 +31,7 @@
 
 .nav-links{
     text-decoration: none;
-    color: #339310;
+    color: #008080;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
@@ -40,7 +40,7 @@
 
 .nav-links i{
     padding-right: 10px;
-    color: #339310;
+    color: #008080;
 }
 /* .nav-links i:hover{
     padding-right: 10px;
@@ -53,7 +53,7 @@
     transition: all 0.2s ease-in-out;
 }
 .navbar-link{
-    color: #339310;
+    color: #008080;
 }
 /* .navbar-link:hover{
     color: #fff;
@@ -72,11 +72,22 @@ button{
     transition: 0.2s ease-in-out;
 }
 button:hover{
-    background-color: #339310;
+    background-color: #014e4e;
     color: #ffffff;
 }
 .menu-icons{
     display: none;
+}
+
+.modal-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 6000px;
+}
+.modal-header{
+    color: #008080;
 }
 
 @media screen and (max-width:850px) {
@@ -115,7 +126,7 @@ button:hover{
         padding: 2rem 0;
     }
     .nav-links:hover{
-        background-color: #339310;
+        background-color: #008080;
         transition: none;
     }
     button{
@@ -128,7 +139,7 @@ button:hover{
         margin: auto;
         border-radius: 4px;
         width: 80%;
-        background-color: #339310;
+        background-color: #008080;
         text-decoration: none;
         color: white;
         font-size: 1.2rem;
@@ -143,6 +154,6 @@ button:hover{
     }
     .menu-icons i{
      font-size: 1.2rem;
-     color: #339310;   
+     color: #008080;   
     }
 }

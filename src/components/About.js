@@ -15,7 +15,7 @@ export default function About() {
       btnClass = "hide"
       />
       <AboutUs 
-      img1= "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+      img1= "https://images.unsplash.com/photo-1485778161019-d41cde65ef6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80"
       />
     <Guide />
       <Footer />

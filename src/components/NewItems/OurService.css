@@ -50,12 +50,12 @@
 }
 
 .ser-card:hover{
-    border-color: #339310;
+    border-color: #008080;
 }
 .ser-btn{
     border: none;
     outline: none;
-    background-color: #339310;
+    background-color: #008080;
     color: #fff;
     border-radius: 10px;
     max-width: 120px;
@@ -67,10 +67,10 @@
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;
-    border: 1px solid #23620c;
+    border: 1px solid #017878;
 }
 .ser-btn:hover{
-    background-color:  #1f560b;
+    background-color:  #017878;
     color: #fff;
 }
 @media screen and (max-width: 750px) {

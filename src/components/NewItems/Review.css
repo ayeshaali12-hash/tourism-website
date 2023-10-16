@@ -25,8 +25,8 @@
     position: relative;
 }
 .wrapper-btn {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 55px;
     background: #fff;
     text-align: center;
     line-height: 50px;
@@ -69,7 +69,7 @@
     flex-direction: column;
 }
 .card .img{
-    background-color: #8B53FF;
+    background-color: #008080;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -85,10 +85,12 @@
     font-weight: 500;
     font-size: 1.56rem;
     margin: 30px 0 5px;
+    color: #008080;
 }
 .card span{
-    color: #6a6d78;
-    font-size: 1.31rem;
+    color: #000;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 450px) {

@@ -56,7 +56,7 @@
     font-size: 1.3rem;
 }
 .cities{
-    color: #256b0c;
+    color: #008080;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
@@ -72,7 +72,8 @@
     background: transparent;
     padding: 0px 0;
     font-size: 1.1rem;
-    color: #2b7b0e;
+    color: #008080;
+    font-weight: 500;
 }
 .table-cell{
     display: table-cell;
@@ -85,7 +86,7 @@
 .pack-btn{
     border: none;
     outline: none;
-    background-color: #339310;
+    background-color: #008080;
     color: #fff;
     border-radius: 10px;
     max-width: 120px;
@@ -94,7 +95,7 @@
     margin-top: 25px;
     cursor: pointer;
     transition: .3s;
-    border: 1px solid #23620c;
+    border: 1px solid #016363;
     margin: 8px 25px 8px;
     align-items: center;
     justify-content: center;
@@ -102,7 +103,7 @@
     
 }
 .pack-btn:hover{
-    background-color:  #1f560b;
+    background-color:  #046060;
     color: #fff;
 }
 
